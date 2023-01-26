@@ -1,0 +1,104 @@
+:root {
+    --primary: #000000;
+    --secondary: #5A5A5A;
+    --white: #ffffff;
+}
+
+body {
+    color: var(--primary);
+    margin: 0px;
+    padding-left: clamp(1rem, 5vw, 8rem);
+    padding-right: clamp(1rem, 5vw, 8rem);
+}
+
+nav {
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+#home {
+    height: 90vh;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+.flex {display: flex;}
+.row {flex-direction: row;}
+.col {flex-direction: column;}
+.text-secondary {color: var(--secondary)}
+.comfortaa {font-family: Comfortaa;}
+.montserrat {font-family: Montserrat;}
+.open-sans {font-family: 'Open Sans';}
+
+
+.nav-link {
+    font-size: 1.5rem;
+    font-family: Montserrat;
+    font-weight: 500;
+    color: var(--secondary);
+    text-decoration: none;
+    letter-spacing: 0.2rem;
+    margin: 0px 4rem 0px 4rem;
+}
+.nav-link:hover { text-decoration: underline; }
+
+.nav-logo {
+    margin-right: auto;
+}
+
+.btn {
+    font-size: clamp(0.8rem, 2vh, 2rem);
+    font-family: Montserrat;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    text-decoration: none;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.btn-primary {
+    color: var(--white);
+    background-color: var(--primary);
+}
+.btn-secondary {
+    color: var(--white);
+    background-color: var(--secondary);
+    border: 2px var(--secondary) solid;
+}
+
+.heading-primary {
+    font-weight: 200;
+    font-size: clamp(1rem, 8vh, 8rem);
+}
+.heading-secondary {
+    font-weight: 200;
+    font-size: clamp(1rem, 6vh, 6rem);
+    margin: 1rem;
+}
+.heading-tertiary {
+    font-weight: 200;
+    font-size: clamp(1rem, 4vh, 4rem);
+    margin: 0px;
+}
+
+
+.image-primary {
+    width: 50vw;
+}
