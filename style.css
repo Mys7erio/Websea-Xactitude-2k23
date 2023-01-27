@@ -33,10 +33,19 @@ nav {
 #home {
     height: 90vh;
     align-items: center;
+    justify-content: center;
 }
 
 #expertise {
     height: 90vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#why-quikfix {
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -123,4 +132,37 @@ nav {
     font-size: 2rem;
     font-family: Comfortaa;
     margin: 0px
+}
+
+
+#why-quikfix-cards-section {
+    width: 80vw;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.card-features {
+    display: flex;
+    align-items: center;
+    width: 25vw;
+    height: 10vh;
+    border-radius: 64px;
+    border: 4px solid var(--secondary);
+    padding: 1rem;
+    margin: 1rem
+}
+
+.card-features-img {
+    width: 5vw;
+    height: 5vw;
+    object-fit: scale-down;
+    margin: 0px 1rem 0px 1rem;
+}
+
+.card-features-text {
+    color: var(--secondary);
+    font-weight: 500;
+    font-family: "Open Sans";
+    font-size: clamp(1rem, 10vh, 2rem);
 }
