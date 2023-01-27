@@ -2,6 +2,7 @@
     --primary: #000000;
     --secondary: #5A5A5A;
     --white: #ffffff;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -14,8 +15,11 @@ body {
 nav {
     display: flex;
     height: 10vh;
+    background-color: var(--white);
     justify-content: center;
     align-items: center;
+    position: sticky;
+    top: 0;
 }
 
 
@@ -31,6 +35,9 @@ nav {
     align-items: center;
 }
 
+#expertise {
+    height: 90vh;
+}
 
 
 
@@ -98,7 +105,22 @@ nav {
     margin: 0px;
 }
 
-
 .image-primary {
     width: 50vw;
+}
+
+.card-product {
+    height: 16vw;
+    width: 12vw;
+    border-radius: 36px;
+    border: 0.2rem solid var(--secondary);
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    cursor: pointer;
+}
+.card-product > p {
+    font-size: 2rem;
+    font-family: Comfortaa;
+    margin: 0px
 }
