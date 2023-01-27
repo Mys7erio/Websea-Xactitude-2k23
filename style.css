@@ -2,6 +2,8 @@
     --primary: #000000;
     --secondary: #5A5A5A;
     --white: #ffffff;
+    --grey: #8B8B8B;
+    --light-grey: #ACACAC;
     scroll-behavior: smooth;
 }
 
@@ -43,6 +45,12 @@ nav {
 }
 
 #why-quikfix {
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#about {
     height: 90vh;
     align-items: center;
     justify-content: center;
@@ -99,16 +107,27 @@ nav {
     border: 2px var(--secondary) solid;
 }
 
+.divider {
+    background-color: var(--grey);
+    width: 10vw;
+    height: 2px;
+    border-radius: 8px;
+    margin: 4rem;
+}
+
 .heading-primary {
     font-weight: 200;
     font-size: clamp(1rem, 8vh, 8rem);
+    margin: 2rem
 }
 .heading-secondary {
+    color: var(--grey);
     font-weight: 200;
     font-size: clamp(1rem, 6vh, 6rem);
     margin: 1rem;
 }
 .heading-tertiary {
+    color: var(--light-grey);
     font-weight: 200;
     font-size: clamp(1rem, 4vh, 4rem);
     margin: 0px;
@@ -165,4 +184,13 @@ nav {
     font-weight: 500;
     font-family: "Open Sans";
     font-size: clamp(1rem, 10vh, 2rem);
+}
+
+#about > p {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: Open Sans;
+    word-spacing: 1rem;
+    line-height: 3rem;
+    margin: 0.5rem;
 }
