@@ -1,0 +1,32 @@
+================================ Page #1 ================================
+
+1)  (Hard) Logo is too large for the navbar.
+2)  (Easy) No style is applied to the third link in the navbar.
+3)  (Medium) No style is applied to the 4th link in the navbar and the link does not work.
+4)  (Medium) Styling on button is partially applied.
+5)  (Medium) Page content is not centered.
+6)  (Easy) Wrong heading and sub heading.
+7)  (Medium) --primary variable's value is wrong in CSS file.
+
+
+================================ Page #2 ================================
+
+1)  (Medium) Styling is not applied to 3rd, 4th & 5th product cards.
+2)  (Easy) Image source is incorrect on 5th product.
+3)  (Easy) Headings are incorrect or missing.
+4)  (Medium) Product cards have the wrong border color (yellow).
+5)  (Tough) Products are aligned wrong horizontally (align-items is set to flex-end instead of center)
+
+
+================================ Page #3 ================================
+
+1)  (Medium) Icons are missing from all the feature cards.
+2)  (Tough) Cards are aligned vertically instead of horizontally.
+
+
+================================ Page #4 ================================
+1) (Easy) Company name is spelled wrong (Simplifix instead of QuikFix)
+2) (Medium) Removed CSS classes from sub heading.
+3) (Easy) Sub heading is wrong.
+4) (Medium) Divider is not there after sub heading.
+5) (Tough) No height property is set on the #about section.

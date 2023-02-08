@@ -1,5 +1,5 @@
 :root {
-    --primary: #000000;
+    --primary: pink;    
     --secondary: #5A5A5A;
     --white: #ffffff;
     --grey: #8B8B8B;
@@ -40,7 +40,8 @@ nav {
 
 #expertise {
     height: 90vh;
-    align-items: center;
+    width: 100%;
+    align-items: flex-end;
     justify-content: center;
 }
 
@@ -51,7 +52,6 @@ nav {
 }
 
 #about {
-    height: 90vh;
     align-items: center;
     justify-content: center;
 }
@@ -141,7 +141,7 @@ nav {
     height: 16vw;
     width: 12vw;
     border-radius: 36px;
-    border: 0.2rem solid var(--secondary);
+    border: 0.2rem solid yellow;
     justify-content: center;
     align-items: center;
     margin: 2rem;
@@ -156,8 +156,8 @@ nav {
 
 #why-quikfix-cards-section {
     width: 80vw;
-    flex-wrap: wrap;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding: 2rem;
 }
 
